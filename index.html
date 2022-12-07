@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon-cg.png" />
+    <script
+      src="https://kit.fontawesome.com/5c51862814.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Curt Grogan Portfolio</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <div id="brand">
+        <img id="header-img" src="./images/favicon-cg.png" alt="CG Logo" />
+      </div>
+      <nav id="navbar" class="navbar">
+        <a class="nav-link" href="#welcome-section">Gist</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <!-- <a class="nav-link" href="#section_three">Contact</a> -->
+      </nav>
+    </header>
+    <main id="main">
+      <section id="welcome-section">
+        <h1 class="lg-heading">
+          Curt
+          <span class="text-secondary">Grogan</span>
+        </h1>
+        <h2 class="sm-heading">Humble, Hungry, and Agile Software Engineer</h2>
+      </section>
+      <section id="projects">
+        <h2 class="lg-heading">Projects</h2>
+        <div class="projects">
+          <div class="project-tile">
+            <a href="#openModal">
+              <div id="bg-proj1" class="projImageContainer">
+                <img
+                  class="thumbnail projThumbnail"
+                  src="images/project1WalkThrough.gif"
+                  alt="
+              Animated screenshots of full-stack application UI."
+                />
+              </div>
+            </a>
+            <a href="#openModal" class="button-light">
+              <i class="fas fa-eye">Full-stack React / C# .NET</i>
+            </a>
+            <!-- 
+              <div id="openModal" class="modalDialog">
+            <div class="modalBody">
+              <a href="#" title="Close" class="close"
+                ><i class="far fa-times-circle"></i
+              ></a>
+              <h2>
+                Honey Get Lists <span class="text-secondary">Full-stack</span>
+              </h2>
+              <img
+                class="projectModalImage"
+                src="images/project1WalkThrough.gif"
+                alt="Honey Get List - Project 1"
+              />
+              <p>
+                "Honey Get List" is a shopping or "To-do" list full-stack
+                application. It is a mobile first responsive application
+                demostrating full CRUD capabilities from front to back.
+              </p>
+              <p>
+                The front-end is a Single Page Application (SPA) built with
+                React, JavaScript, HTML, and CSS. The application was manually
+                deployed to Netlify and then refactored to utilize continous
+                deployment via GitHub.
+              </p>
+              <p>
+                The back-end serves up a RESTful API and is built with C# | .NET
+                utilizing Entity Framework Core with a SQL database. Deployment
+                is to Heroku utilizing a Docker container.
+              </p>
+            </div>
+          </div> 
+        -->
+            <a
+              href="https://github.com/clgrogan/HoneyGetListFullStack"
+              id="profile-link"
+              target="_blank"
+              class="button-dark"
+            >
+              <i class="fab fa-github">GitHub</i>
+            </a>
+          </div>
+          <div class="project-tile">
+            <div class="a-thumb">
+              <a
+                class="a-thumb"
+                href="https://search-dogs.netlify.app"
+                id="profile-link"
+                target="_blank"
+              >
+                <img
+                  class="thumbNail"
+                  src="images/dog-search-project.png"
+                  alt="Photo of computer and phone with application on the screens."
+                />
+              </a>
+            </div>
+            <a
+              href="https://search-dogs.netlify.app"
+              id="profile-link"
+              target="_blank"
+              class="button-light"
+            >
+              <i class="fas fa-eye">React App uses Youtube API</i>
+            </a>
+            <a
+              href="https://github.com/clgrogan/YoutubeDogVideoSearch"
+              id="profile-link"
+              target="_blank"
+              class="button-dark"
+            >
+              <i class="fab fa-github">GitHub</i>
+            </a>
+          </div>
+          <div class="project-tile">
+            <div class="a-thumb">
+              <a
+                href="https://github-followers-angular-project.netlify.app/"
+                id="profile-link"
+                target="_blank"
+              >
+                <img
+                  class="thumbNail"
+                  src="images/project4.jpg"
+                  alt="First Project"
+                />
+              </a>
+            </div>
+            <a
+              href="https://github-followers-angular-project.netlify.app/"
+              id="profile-link"
+              target="_blank"
+              class="button-light"
+            >
+              <i class="fas fa-eye">Angular App uses Github API</i>
+            </a>
+            <a
+              href="https://github.com/clgrogan/GitHubFollowersExercise-NG"
+              id="profile-link"
+              target="_blank"
+              class="button-dark"
+            >
+              <i class="fab fa-github">GitHub</i>
+            </a>
+          </div>
+          <div class="project-tile">
+            <div class="a-thumb">
+              <a href="https://curtg.netlify.com/" target="_blank">
+                <img
+                  class="thumbNail"
+                  src="images/project5.jpg"
+                  alt="First Project"
+                />
+              </a>
+            </div>
+            <a
+              href="https://curtg.netlify.com/"
+              id="profile-link"
+              target="_blank"
+              class="button-light"
+            >
+              <i class="fas fa-eye">Project</i>
+            </a>
+            <a
+              href="https://github.com/clgrogan/My-Portfolio-Vanilla"
+              id="profile-link"
+              target="_blank"
+              class="button-dark"
+            >
+              <i class="fab fa-github">GitHub</i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
